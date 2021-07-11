@@ -26,8 +26,8 @@ echo not yet implemented
 mkdir ~/.vim/pack/start
 
 ### vim pack Goyo
-git clode https://github.com/junegunn/goyo.vim.git ~/.vim/pack/start/
-git clode https://github.com/junegunn/limelight.vim.git ~/.vim/pack/start/
+git clone https://github.com/junegunn/goyo.vim.git ~/.vim/pack/start/
+git clone https://github.com/junegunn/limelight.vim.git ~/.vim/pack/start/
 
 
 ### Bashrc
@@ -38,8 +38,9 @@ rm -r ~/bashrc
 
 
 ### Awesome Config
-git clone https://github.com/AmosNimos/awesome.git ~/.config/
-unzip ~/.config/awesome.zip
+git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
+
+git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi
 
 echo '
 " load pluggin from the pack folder
