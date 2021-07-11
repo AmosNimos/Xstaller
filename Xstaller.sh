@@ -26,12 +26,13 @@ echo not yet implemented
 mkdir ~/.vim/pack/start
 
 ### vim pack Goyo
-git clone https://github.com/junegunn/goyo.vim.git ~/.vim/pack/start/
-git clone https://github.com/junegunn/limelight.vim.git ~/.vim/pack/start/
+git clone https://github.com/junegunn/goyo.vim.git ~/.vim/pack/plug/start/
+git clone https://github.com/junegunn/limelight.vim.git ~/.vim/pack/plug/start/
+git clone https://github.com/AmosNimos/VIM/blob/c42dd6874ea21a8488b83df9bf9aebbf90db0bf2/.vimrc ~/
 
 
 ### Bashrc
-git clone https://github.com/AmosNimos/bashrc.git ~/
+git clone https://github.com/AmosNimos/bashrc/blob/9703530fee80db1b0a9c72f5bf539906b6f79e2f/.bashrc ~/
 unzip bashrc.zip
 mv ~/bashrc/.bashrc ~/
 rm -r ~/bashrc
@@ -41,44 +42,6 @@ rm -r ~/bashrc
 git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
 
 git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi
-
-echo '
-" load pluggin from the pack folder
-packloadall
-
-" nnoremap
-nnoremap j gj
-nnoremap k gk
-nnoremap /g :Goyo<CR>
-
-" Spell map
-nnoremap sa zG
-nnoremap sc z= 
-nnoremap ss :set spell!<CR>
-
-" set
-set number
-set tabstop=4
-set spell spelllang=en_us
-"set nowrap
-
-" Lime Light & Goyo setup
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
-"autocmd! User GoyoLeave & q
-" Color name (:help cterm-colors) or ANSI code
-let g:limelight_conceal_ctermfg = 'DarkGray'
-:map \g :Goyo <bar> <CR>
-Goyo
-
-"my custom key
-"https://vim.fandom.com/wiki/Unused_keys
-
-"save & quit
-:map  <C-@> :Goyo! <bar> wq <bar> <CR> 
-"quit no save
-:map  <C-K> :Goyo! <bar> q! <bar> <CR>"
-' > ~/.testvimrc
 
 # rename Html2pdf
 sudo ln -s /usr/bin/wkhtmltopdf /usr/local/bin/html2pdf
