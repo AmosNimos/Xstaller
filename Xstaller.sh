@@ -6,26 +6,10 @@ sudo apt install unrar unzip git vim python3-pip mpv cmus neofetch
 # Optional
 sudo apt atom lxappearance awesome rofi lutris sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
 
-[//]: # install sublime text
+echo Theme of the bash terminal not yet implemented
 
-<!--
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-
-sudo apt-get install apt-transport-https
-
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-
-sudo apt-get update
-
-sudo apt-get install sublime-text
--->
-
-
-# Theme du terminal
-echo not yet implemented
-
-# sublime text theme/ Atome theme
-echo not yet implemented
+# debug
+echo Atom theme and config not yet implemented
 
 # vim 
 
@@ -43,7 +27,6 @@ git clone https://github.com/AmosNimos/bashrc/blob/9703530fee80db1b0a9c72f5bf539
 unzip bashrc.zip
 mv ~/bashrc/.bashrc ~/
 rm -r ~/bashrc
-
 
 ### Awesome Config
 git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
