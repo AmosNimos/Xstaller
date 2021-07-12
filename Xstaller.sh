@@ -8,7 +8,7 @@ sudo apt atom lxappearance awesome rofi lutris sox suckless-tools pavucontrol yo
 
 [//]: # install sublime text
 
-<!---
+<!--
 
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
@@ -26,7 +26,7 @@ echo not yet implemented
 # sublime text theme/ Atome theme
 echo not yet implemented
 
----!>
+--!>
 
 # vim 
 
