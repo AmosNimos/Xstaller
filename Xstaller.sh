@@ -29,7 +29,10 @@ mv ~/bashrc/.bashrc ~/
 rm -r ~/bashrc
 
 ### Awesome Config
-git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
+cp /etc/xdg/awesome/rc.lua ~/.config/awesome
+
+# just append the keys to the default rc file
+# git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
 
 git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi
 
