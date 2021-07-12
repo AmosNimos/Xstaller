@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sudo apt install unzip awesome vim python3-pip mpv cmus gimp rofi lxappearance sox suckless-tools git pavucontrol youtube-dl calibre xdotool libreoffice espeak xsel wkhtmltopdf neofetch 
+# Funtional
+sudo apt install unrar unzip git vim python3-pip mpv cmus neofetch 
+
+# Optional
+sudo apt lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp xdotool
 
 # install sublime text
 
@@ -17,7 +21,7 @@ sudo apt-get install sublime-text
 # Theme du terminal
 echo not yet implemented
 
-# sublime text theme
+# sublime text theme/ Atome theme
 echo not yet implemented
 
 # vim 
