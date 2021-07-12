@@ -4,10 +4,11 @@
 sudo apt install unrar unzip git vim python3-pip mpv cmus neofetch 
 
 # Optional
-sudo apt lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp xdotool
+sudo apt atom lxappearance awesome rofi lutris sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
 
-# install sublime text
+[//]: # install sublime text
 
+<!---
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
 sudo apt-get install apt-transport-https
@@ -23,6 +24,7 @@ echo not yet implemented
 
 # sublime text theme/ Atome theme
 echo not yet implemented
+<!---
 
 # vim 
 
