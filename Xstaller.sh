@@ -9,7 +9,6 @@ sudo apt atom lxappearance awesome rofi lutris sox suckless-tools pavucontrol yo
 [//]: # install sublime text
 
 <!--
-
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
 sudo apt-get install apt-transport-https
@@ -19,14 +18,14 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 
 sudo apt-get install sublime-text
+-->
+
 
 # Theme du terminal
 echo not yet implemented
 
 # sublime text theme/ Atome theme
 echo not yet implemented
-
---!>
 
 # vim 
 
