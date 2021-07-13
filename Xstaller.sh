@@ -24,6 +24,8 @@ git clone https://github.com/AmosNimos/VIM/blob/c42dd6874ea21a8488b83df9bf9aebbf
 #gedit 
 echo "monokai theme for gedit is in ~/.config/gedit/theme/monokai and probably need to be unziped"
 git clone https://gist.github.com/LeoIannacone/71028cc3bce04567d77e ~/.config/gedit/theme/monokai
+echo "multi edit need to be activated in preference then tool, other repository of the feature might be better" 
+sudo apt install gedit-plugin-multi-edit
 
 ### Bashrc
 git clone https://github.com/AmosNimos/bashrc/blob/9703530fee80db1b0a9c72f5bf539906b6f79e2f/.bashrc ~/
