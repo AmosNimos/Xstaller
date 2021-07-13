@@ -21,6 +21,9 @@ git clone https://github.com/junegunn/goyo.vim.git ~/.vim/pack/plug/start/
 git clone https://github.com/junegunn/limelight.vim.git ~/.vim/pack/plug/start/
 git clone https://github.com/AmosNimos/VIM/blob/c42dd6874ea21a8488b83df9bf9aebbf90db0bf2/.vimrc ~/
 
+#gedit 
+echo "monokai theme for gedit is in ~/.config/gedit/theme/monokai and probably need to be unziped"
+git clone https://gist.github.com/LeoIannacone/71028cc3bce04567d77e ~/.config/gedit/theme/monokai
 
 ### Bashrc
 git clone https://github.com/AmosNimos/bashrc/blob/9703530fee80db1b0a9c72f5bf539906b6f79e2f/.bashrc ~/
