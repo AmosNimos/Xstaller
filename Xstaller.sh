@@ -11,7 +11,15 @@ sudo apt install gedit lxappearance awesome rofi sox suckless-tools pavucontrol 
 # The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 # lutris https://lutris.net/downloads/
 # atom https://atom.io/
+
+
 # Sublime https://www.sublimetext.com/3
+
+# To stop the update warning
+
+> I also suggest changing the user setting to remove the auto matching 
+
+echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 
 echo Theme of the bash terminal not yet implemented
 
