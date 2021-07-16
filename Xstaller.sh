@@ -1,10 +1,17 @@
 #!/bin/bash
 
+# Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository.
+
 # Funtional
-sudo apt install unrar unzip git vim python3-pip mpv cmus neofetch 
+sudo apt install unzip git vim python3-pip mpv cmus neofetch 
 
 # Optional
-sudo apt atom lxappearance awesome rofi lutris sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
+sudo apt install gedit lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
+
+# The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
+# lutris https://lutris.net/downloads/
+# atom https://atom.io/
+# Sublime https://www.sublimetext.com/3
 
 echo Theme of the bash terminal not yet implemented
 
