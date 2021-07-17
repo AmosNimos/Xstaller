@@ -6,7 +6,7 @@
 sudo apt install unzip git vim python3-pip mpv cmus neofetch 
 
 # Optional
-sudo apt install gedit lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
+sudo apt install w3m gedit lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
 
 # The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 # lutris https://lutris.net/downloads/
