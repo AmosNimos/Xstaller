@@ -65,6 +65,10 @@ git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi
 # rename Html2pdf
 sudo ln -s /usr/bin/wkhtmltopdf /usr/local/bin/html2pdf
 
+# on Ubuntu
+
+sudo apt install gnome-tweak-tool
+
 ---
 
 ### To be added to this installing process
