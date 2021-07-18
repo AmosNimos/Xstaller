@@ -1,6 +1,4 @@
-#!/bin/bash
-
-# Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository.
+<!--  Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository. -->
 
 # Funtional
 sudo apt install unzip git vim python3-pip mpv cmus neofetch 
@@ -13,9 +11,13 @@ sudo apt install w3m gedit lxappearance awesome rofi sox suckless-tools pavucont
 # atom https://atom.io/
 
 
-# Sublime https://www.sublimetext.com/3
+# Sublime text
 
-# To stop the update warning
+[Sublime 3](https://www.sublimetext.com/3)
+
+[Sublime Last Version](https://www.sublimetext.com/download)
+
+## To stop the update warning
 
 > I also suggest changing the user setting to remove the auto matching 
 
