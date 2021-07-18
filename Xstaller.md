@@ -49,10 +49,7 @@ echo "multi edit need to be activated in preference then tool, other repository 
 sudo apt install gedit-plugin-multi-edit
 
 ### Bashrc
-git clone https://github.com/AmosNimos/bashrc/blob/9703530fee80db1b0a9c72f5bf539906b6f79e2f/.bashrc ~/
-unzip bashrc.zip
-mv ~/bashrc/.bashrc ~/
-rm -r ~/bashrc
+rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos/bashrc/main/.bashrc"
 
 ### Awesome Config
 cp /etc/xdg/awesome/rc.lua ~/.config/awesome
