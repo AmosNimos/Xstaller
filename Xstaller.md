@@ -12,7 +12,7 @@ The following do require more advance installation, but are higly recomended, th
 
 > Lutris is an Open Source gaming platform for Linux.
 
-[Atom] (https://atom.io/)
+[Atom](https://atom.io/)
 
 > Atom is a free and open-source text and source code editor for macOS, Linux,
 
