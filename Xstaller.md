@@ -6,10 +6,17 @@ sudo apt install unzip git vim python3-pip mpv cmus neofetch
 # Optional
 sudo apt install w3m gedit lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
 
-# The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
-# lutris https://lutris.net/downloads/
-# atom https://atom.io/
+The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 
+[Lutris](https://lutris.net/downloads/)
+
+> Lutris is an Open Source gaming platform for Linux.
+
+[Atom] (https://atom.io/)
+
+> Atom is a free and open-source text and source code editor for macOS, Linux,
+
+---
 
 # Sublime text
 
@@ -23,17 +30,19 @@ sudo apt install w3m gedit lxappearance awesome rofi sox suckless-tools pavucont
 
 echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 
-# vim 
+---
 
-## create pack directory
+## vim 
+
+### create pack directory
 mkdir ~/.vim/pack/start
 
-### vim pack Goyo
+#### vim pack Goyo
 git clone https://github.com/junegunn/goyo.vim.git ~/.vim/pack/plug/start/
 git clone https://github.com/junegunn/limelight.vim.git ~/.vim/pack/plug/start/
 git clone https://github.com/AmosNimos/VIM/blob/c42dd6874ea21a8488b83df9bf9aebbf90db0bf2/.vimrc ~/
 
-#gedit 
+## gedit 
 echo "monokai theme for gedit is in ~/.config/gedit/theme/monokai and probably need to be unziped"
 git clone https://gist.github.com/LeoIannacone/71028cc3bce04567d77e ~/.config/gedit/theme/monokai
 echo "multi edit need to be activated in preference then tool, other repository of the feature might be better" 
@@ -48,8 +57,8 @@ rm -r ~/bashrc
 ### Awesome Config
 cp /etc/xdg/awesome/rc.lua ~/.config/awesome
 
-# just append the keys to the default rc file
-# git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
+## just append the keys to the default rc file
+git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
 
 git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi
 
