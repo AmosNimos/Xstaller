@@ -23,11 +23,6 @@ sudo apt install w3m gedit lxappearance awesome rofi sox suckless-tools pavucont
 
 echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 
-echo Theme of the bash terminal not yet implemented
-
-# debug
-echo Atom theme and config not yet implemented
-
 # vim 
 
 ## create pack directory
@@ -60,3 +55,11 @@ git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi
 
 # rename Html2pdf
 sudo ln -s /usr/bin/wkhtmltopdf /usr/local/bin/html2pdf
+
+---
+
+### To be added to this installing process
+- Atom rc file
+- Sublime rc file
+- Terminal color theme
+- pip install python common addon
