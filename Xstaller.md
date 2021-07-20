@@ -1,10 +1,16 @@
 <!--  Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository. -->
 
 # Funtional
+
+~~~
 sudo apt install unzip git vim python3-pip mpv cmus neofetch 
+~~~
 
 # Optional
+
+~~~
 sudo apt install w3m gedit lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
+~~~
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 
