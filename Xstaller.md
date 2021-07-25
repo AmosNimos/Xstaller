@@ -100,3 +100,5 @@ sudo apt install gnome-tweak-tool
 - Sublime rc file
 - Terminal color theme
 - pip install python common addon
+
+> As my last advice enable __DARK-MODE__ on all your application, espacially your web browser!
