@@ -30,16 +30,19 @@ The following do require more advance installation, but are higly recomended, th
 
 ## Just for you lazy people a single line install.
 ~~~
-cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb
+cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb && echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
 
 [Sublime Last Version](https://www.sublimetext.com/download)
 
 ## To stop the update warning
 
-> I also suggest changing the user setting to remove the auto matching 
+> I also suggest changing the user setting to remove the auto matching.
+> And use the following command to stop the update popup. (already included in the online install)
 
+~~~
 echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
+~~~
 
 ---
 
