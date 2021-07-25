@@ -3,7 +3,7 @@
 # Funtional
 
 ~~~
-sudo apt install unzip git vim python3-pip mpv cmus neofetch 
+sudo apt install unzip git nano vim python3-pip mpv cmus neofetch 
 ~~~
 
 # Optional
@@ -33,16 +33,29 @@ The following do require more advance installation, but are higly recomended, th
 cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb && echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
 
+## Manual install
+
 [Sublime Last Version](https://www.sublimetext.com/download)
 
-## To stop the update warning
-
 > I also suggest changing the user setting to remove the auto matching.
-> And use the following command to stop the update popup. (already included in the online install)
+
+## To stop the update warning
 
 ~~~
 echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
+
+### If you get a __Permission denied__ use instead: 
+
+~~~
+sudo nano /etc/hosts
+~~~
+Then paste:
+~~~
+"127.0.0.1 www.sublimetext.com"
+~~~
+
+
 
 ---
 
