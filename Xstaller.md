@@ -3,13 +3,13 @@
 # Funtional
 
 ~~~
-sudo apt install unzip git nano vim python3-pip mpv cmus neofetch 
+sudo apt install -y unzip git nano vim python3-pip mpv cmus neofetch 
 ~~~
 
 # Optional
 
 ~~~
-sudo apt install w3m gedit lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
+sudo apt install -y w3m gedit lxappearance awesome rofi sox suckless-tools pavucontrol youtube-dl calibre libreoffice espeak xsel wkhtmltopdf gimp inkscape xdotool
 ~~~
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
