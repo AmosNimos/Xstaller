@@ -3,7 +3,7 @@
 # Funtional
 
 ~~~
-sudo apt install -y unzip git nano vim python3-pip mpv cmus neofetch 
+sudo apt install -y unzip git nano vim python3-pip mpv cmus ffmpeg neofetch 
 ~~~
 
 # Optional
