@@ -3,7 +3,7 @@
 # Funtional
 
 ~~~
-sudo apt install -y unzip git nano vim python3-pip suckless-tools sox mpv cmus ffmpeg neofetch 
+sudo apt install -y unzip git nano vim transmission python3-pip suckless-tools sox mpv cmus ffmpeg neofetch 
 ~~~
 
 # Optional
