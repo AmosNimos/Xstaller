@@ -90,7 +90,7 @@ sudo nano /etc/hosts
 
 ---
 
-# ⚠️ The following has not been tested and might require more thinkering and problem solving or simply not work. ⚠️ --->
+# ⚠️ 🚧 The following has not been tested and might require more thinkering and problem solving or simply not work. 🚧 ⚠️ --->
 
 ## vim 
 
