@@ -60,7 +60,9 @@ The following do require more advance installation, but are higly recomended, th
 
 [Sublime 3](https://www.sublimetext.com/3)
 
-### Just for you lazy people a single line install of sublime 3
+
+> Just for you lazy people.
+### single line install of sublime 3
 ~~~
 cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb && echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
