@@ -6,6 +6,33 @@
 sudo apt install -y unzip git nano vim transmission python3-pip suckless-tools sox mpv cmus ffmpeg neofetch 
 ~~~
 
+# Programme Descriptions
+
+- Git
+> (Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed. data integrity, and support for distributed, non-linear workflows.)
+
+- Nano & Vim
+> (Are two terminal base minimalistic text editor.)
+
+- Transmission 
+> (Transmission is a BitTorrent client which features a variety of user interfaces on top of a cross-platform back-end. Transmission is free software licensed under the terms of the GNU General Public License, with parts under the MIT License.)
+
+- Pip
+> (pip is the standard package manager for Python. It allows you to install and manage additional packages that are not part of the Python standard library. This tutorial is an introduction to pip for new Pythonistas.)
+
+- Suckless-tools
+> (This package provides simple commands designed to be used with a minimalistic window manager like dwm but they can be useful in scripts regardless of the window manager used.)
+
+- Sox 
+> (To record audio.)
+
+- Ffmpeg
+> (FFmpeg is a free and open-source software project consisting of a large suite of libraries and programs for handling video, audio, and other multimedia files and streams. At its core is the FFmpeg program itself, designed for command-line-based processing of video and audio files.)
+
+- neofetch
+> (Neofetch is mainly developed to be used in screenshots of your system. It currently supports 150+ operating systems including Linux, BSD, Mac OS X, iOS, and Windows.)
+
+
 # Optional
 
 ~~~
