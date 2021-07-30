@@ -12,7 +12,7 @@ sudo apt install -y unzip git nano vim transmission python3-pip suckless-tools s
 > (Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed. data integrity, and support for distributed, non-linear workflows.)
 
 - Nano & Vim
-> (Nano & Vim Are two different minimalistic text editor that run in the terminal.)
+> (Nano & Vim Are two different minimalistic text editor that run on your terminal/terminal-emulator.)
 
 - Transmission 
 > (Transmission is a BitTorrent client which features a variety of user interfaces on top of a cross-platform back-end. Transmission is free software licensed under the terms of the GNU General Public License, with parts under the MIT License.)
