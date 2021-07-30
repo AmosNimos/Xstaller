@@ -56,40 +56,41 @@ The following do require more advance installation, but are higly recomended, th
 
 ---
 
-# Sublime text
+# Sublime 3
 
 [Sublime 3](https://www.sublimetext.com/3)
 
-## Just for you lazy people a single line install.
+### Just for you lazy people a single line install of sublime 3
 ~~~
 cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb && echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
 
-## Manual install
+## Manual install of sublime 3
 
 [Sublime Last Version](https://www.sublimetext.com/download)
 
 > I also suggest changing the user setting to remove the auto matching.
 
-## To stop the update warning
+## To stop the update warning of sublime 3
 
 ~~~
 echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
 
-### If you get a __Permission denied__ use instead: 
+> If you get a __Permission denied__ use instead: 
 
 ~~~
 sudo nano /etc/hosts
 ~~~
-Then paste:
+> Then paste:
 ~~~
 "127.0.0.1 www.sublimetext.com"
 ~~~
-
-
+> Don't forget to __save__ your change to the hosts file (The default shortcut should be __ctrl-o__).
 
 ---
+
+# The following has not been tested and might require more thinkering and problem solving or simply not work.
 
 ## vim 
 
