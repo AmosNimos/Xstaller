@@ -40,10 +40,7 @@ sudo apt update && apt install -y unzip git nano vim transmission python3-pip su
 sudo apt update && apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak  wkhtmltopdf gimp inkscape xdotool
 ~~~
 
-## Programme Descriptions
-
-- Xsel (turn your mouse selection into bash input)
-- 
+---
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 
