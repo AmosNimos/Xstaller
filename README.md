@@ -3,8 +3,10 @@
 # Funtional
 
 ~~~
-sudo apt install -y unzip git nano vim transmission python3-pip suckless-tools sox mpv cmus ffmpeg neofetch 
+sudo apt update && apt install -y unzip git nano vim transmission python3-pip suckless-tools sox mpv cmus ffmpeg neofetch 
 ~~~
+
+> If after the install, you want to know more about any of those package, simply use the __man__ command (man is for manual) followed by the package name.
 
 # Programme Descriptions
 
@@ -32,11 +34,10 @@ sudo apt install -y unzip git nano vim transmission python3-pip suckless-tools s
 - neofetch
 > (Neofetch is mainly developed to be used in screenshots of your system. It currently supports 150+ operating systems including Linux, BSD, Mac OS X, iOS, and Windows.)
 
-
 # Optional
 
 ~~~
-sudo apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak  wkhtmltopdf gimp inkscape xdotool
+sudo apt update && apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak  wkhtmltopdf gimp inkscape xdotool
 ~~~
 
 ## Programme Descriptions
