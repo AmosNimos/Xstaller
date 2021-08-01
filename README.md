@@ -1,5 +1,10 @@
 <!--  Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository. -->
 
+# Install my bashrc
+~~~
+cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos/bashrc/main/.bashrc"
+~~~
+
 # Funtional
 
 ~~~
@@ -105,9 +110,6 @@ echo "monokai theme for gedit is in ~/.config/gedit/theme/monokai and probably n
 git clone https://gist.github.com/LeoIannacone/71028cc3bce04567d77e ~/.config/gedit/theme/monokai
 echo "multi edit need to be activated in preference then tool, other repository of the feature might be better" 
 sudo apt install gedit-plugin-multi-edit
-
-### Bashrc
-rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos/bashrc/main/.bashrc"
 
 ### Awesome Config
 cp /etc/xdg/awesome/rc.lua ~/.config/awesome
