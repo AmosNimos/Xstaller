@@ -71,7 +71,6 @@ cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.d
 
 ### To stop the update warning of sublime 3
 
-> ⚠️ 🚧 The following method may be a potential security risk. 
 ~~~
 echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
