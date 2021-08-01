@@ -60,7 +60,7 @@ The following do require more advance installation, but are higly recomended, th
 
 ### Single line install of sublime 3
 ~~~
-cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb && echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
+cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb
 ~~~
 
 ## Manual install of sublime 3
@@ -69,8 +69,9 @@ cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.d
 
 > I also suggest changing the user setting to remove the auto matching.
 
-## To stop the update warning of sublime 3
+### To stop the update warning of sublime 3
 
+> ⚠️ 🚧 The following method may be a potential security risk. 
 ~~~
 echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
