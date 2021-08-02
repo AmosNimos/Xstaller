@@ -7,6 +7,7 @@ cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos
 
 # Funtional
 
+> Remove package you don't want first.
 ~~~
 sudo apt update && apt install -y unzip git nano vim neofetch transmission python3-pip suckless-tools sox mpv cmus ffmpeg
 ~~~
@@ -36,14 +37,66 @@ sudo apt update && apt install -y unzip git nano vim neofetch transmission pytho
 - Ffmpeg
 > (FFmpeg is a free and open-source software project consisting of a large suite of libraries and programs for handling video, audio, and other multimedia files and streams. At its core is the FFmpeg program itself, designed for command-line-based processing of video and audio files.)
 
-- neofetch
+- Neofetch
 > (Neofetch is mainly developed to be used in screenshots of your system. It currently supports 150+ operating systems including Linux, BSD, Mac OS X, iOS, and Windows.)
 
 # Optional
 
+> Remove package you don't want first.
 ~~~
-sudo apt update && apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak  wkhtmltopdf gimp inkscape xdotool steam
+sudo apt update && apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape xdotool steam
 ~~~
+
+-Xsel
+> XSel is a command-line program for getting and setting the contents of the X selection. Normally this is only accessible by manually highlighting information and pasting it with the middle mouse button.
+
+- W3m
+> w3m is a free software/open source text-based web browser and terminal pager. It has support for tables, frames, SSL connections, color, and inline images on suitable terminals. Generally, it renders pages in a form as true to their original layout as possible.
+
+- Gedit
+> gedit is the default text editor of the GNOME desktop environment and part of the GNOME Core Applications. Designed as a general-purpose text editor, gedit emphasizes simplicity and ease of use, with a clean and simple GUI, according to the philosophy of the GNOME project.
+
+LXAppearance
+> LXAppearance is the standard theme switcher of LXDE. Users are able to change the theme, icons, and fonts used by applications easily. Starting at version 0.6. 1 it also allows to enable the accessibility features.
+
+- Awesome
+> Awesome is a an extensible, highly configurable window manager, with config file written in lua.
+
+- Rofi
+> Rofi is a window switcher, run dialog, ssh-launcher and dmenu replacement that started as a clone of simpleswitcher, written by Sean Pringle and later expanded by Dave Davenport
+
+- Obs-studio
+> OBS Studio is a free and open-source cross-platform streaming and recording program built with Qt and maintained by the OBS Project. There are versions of OBS Studio available for Microsoft Windows, macOS, and Linux distributions. OBS Project raises funds on Open Collective and Patreon.
+
+- Pavucontrol
+> PulseAudio Volume Control (pavucontrol) is a volume control tool (“mixer”) for the PulseAudio sound server. In contrast to classic mixer tools, this one allows you to control both the volume of hardware devices and of each playback stream separately.
+
+- Youtube-dl
+> Youtube-dl is an open-source download manager for video and audio from YouTube and over 1000 other video hosting websites. It is released under the Unlicense software license. As of July 2021, youtube-dl is one of the most starred projects on GitHub, with over 98.2k stars.
+
+- Calibre
+> Calibre is a cross-platform open-source suite of e-book software. Calibre supports organizing existing e-books into virtual libraries, displaying, editing, creating and converting e-books, as well as syncing e-books with a variety of e-readers. Editing books is supported for EPUB and AZW3 formats.
+
+- Libreoffice
+> LibreOffice is a free and open-source office productivity software suite, a project of The Document Foundation. It was forked in 2010 from OpenOffice.org, which was an open-sourced version of the earlier StarOffice.
+
+- Espeak
+> eSpeakNG is a compact, open-source, software speech synthesizer for Linux, Windows, and other platforms. It uses a formant synthesis method, providing many languages in a small size. Much of the programming for eSpeakNG's language support is done using rule files with feedback from native speakers. 
+
+- Wkhtmltopdf
+> wkhtmltopdf and wkhtmltoimage are open source (LGPLv3) command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine. These run entirely "headless" and do not require a display or display service.
+
+- Gimp
+> GIMP is a free and open-source raster graphics editor used for image manipulation and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. GIMP is released under GPL-3.0-or-later license and is available for Linux, macOS, and Microsoft Windows.
+
+- Inkscape
+> Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics format. Other formats can be imported and exported. Inkscape can render primitive vector shapes and text.
+
+- Xdotool
+> Xdotool lets you programatically (or manually) simulate keyboard input and mouse activity, move and resize windows, etc. It does this using X11's XTEST extension and other Xlib functions. 
+
+- Steam
+> Steam is a video game digital distribution service by Valve. It was launched as a standalone software client in September 2003 as a way for Valve to provide automatic updates for their games, and expanded to include games from third-party publishers. 
 
 ---
 
