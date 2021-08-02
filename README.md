@@ -112,11 +112,11 @@ The following do require more advance installation, but are higly recomended, th
 
 [Lutris](https://lutris.net/downloads/)
 
-> Lutris is an Open Source gaming platform for __Linux__.
+> Lutris is a free and open source game manager for Linux-based operating systems developed and maintained by Mathieu Comandon and the community, listed under the GNU General Public License. Lutris has one-click installation available for games on its website, and also integrates with the Steam website..
 
 [Atom](https://atom.io/)
 
-> Atom is a free and open-source text and source code editor for macOS, __Linux__,
+> Atom is a free and open-source text and source code editor for macOS, __Linux__, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control, developed by GitHub.,
 
 ---
 
