@@ -32,7 +32,7 @@ sudo apt update && apt install -y unzip git nano vim neofetch transmission pytho
 > (This package provides simple commands designed to be used with a minimalistic window manager like dwm but they can be useful in scripts regardless of the window manager used.)
 
 - Sox 
-> (SoX is a cross-platform (Windows, Linux, MacOS X, etc.) command line utility that can convert various formats of computer audio files in to other formats. It can also apply various effects to these sound files, and, as an added bonus, SoX can play and record audio files on most platforms.)
+> (SoX is a cross-platform (Windows, __Linux__, MacOS X, etc.) command line utility that can convert various formats of computer audio files in to other formats. It can also apply various effects to these sound files, and, as an added bonus, SoX can play and record audio files on most platforms.)
 
 - Ffmpeg
 > (FFmpeg is a free and open-source software project consisting of a large suite of libraries and programs for handling video, audio, and other multimedia files and streams. At its core is the FFmpeg program itself, designed for command-line-based processing of video and audio files.)
@@ -70,7 +70,7 @@ LXAppearance
 > Rofi is a window switcher, run dialog, ssh-launcher and dmenu replacement that started as a clone of simpleswitcher, written by Sean Pringle and later expanded by Dave Davenport
 
 - Obs-studio
-> OBS Studio is a free and open-source cross-platform streaming and recording program built with Qt and maintained by the OBS Project. There are versions of OBS Studio available for Microsoft Windows, macOS, and Linux distributions. OBS Project raises funds on Open Collective and Patreon.
+> OBS Studio is a free and open-source cross-platform streaming and recording program built with Qt and maintained by the OBS Project. There are versions of OBS Studio available for Microsoft Windows, macOS, and __Linux__ distributions. OBS Project raises funds on Open Collective and Patreon.
 
 - Pavucontrol
 > PulseAudio Volume Control (pavucontrol) is a volume control tool (“mixer”) for the PulseAudio sound server. In contrast to classic mixer tools, this one allows you to control both the volume of hardware devices and of each playback stream separately.
@@ -85,13 +85,13 @@ LXAppearance
 > LibreOffice is a free and open-source office productivity software suite, a project of The Document Foundation. It was forked in 2010 from OpenOffice.org, which was an open-sourced version of the earlier StarOffice.
 
 - Espeak
-> eSpeakNG is a compact, open-source, software speech synthesizer for Linux, Windows, and other platforms. It uses a formant synthesis method, providing many languages in a small size. Much of the programming for eSpeakNG's language support is done using rule files with feedback from native speakers. 
+> eSpeakNG is a compact, open-source, software speech synthesizer for __Linux__, Windows, and other platforms. It uses a formant synthesis method, providing many languages in a small size. Much of the programming for eSpeakNG's language support is done using rule files with feedback from native speakers. 
 
 - Wkhtmltopdf
 > wkhtmltopdf and wkhtmltoimage are open source (LGPLv3) command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine. These run entirely "headless" and do not require a display or display service.
 
 - Gimp
-> GIMP is a free and open-source raster graphics editor used for image manipulation and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. GIMP is released under GPL-3.0-or-later license and is available for Linux, macOS, and Microsoft Windows.
+> GIMP is a free and open-source raster graphics editor used for image manipulation and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. GIMP is released under GPL-3.0-or-later license and is available for __Linux__, macOS, and Microsoft Windows.
 
 - Inkscape
 > Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics format. Other formats can be imported and exported. Inkscape can render primitive vector shapes and text.
@@ -106,13 +106,17 @@ LXAppearance
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 
+[Pico-8](https://www.lexaloffle.com/pico-8.php)
+
+> PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. It feels like a regular console, but runs on Windows , Mac , __Linux__.
+
 [Lutris](https://lutris.net/downloads/)
 
-> Lutris is an Open Source gaming platform for Linux.
+> Lutris is an Open Source gaming platform for __Linux__.
 
 [Atom](https://atom.io/)
 
-> Atom is a free and open-source text and source code editor for macOS, Linux,
+> Atom is a free and open-source text and source code editor for macOS, __Linux__,
 
 ---
 
