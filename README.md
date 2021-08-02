@@ -14,7 +14,7 @@ sudo apt update && apt install -y unzip git nano vim neofetch transmission pytho
 
 > If after the install, you want to know more about any of those package, simply use the __man__ command (man is for manual) followed by the package name.
 
-# Programme Descriptions
+### Programme Descriptions
 
 - Git
 > (Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed. data integrity, and support for distributed, non-linear workflows.)
@@ -47,7 +47,9 @@ sudo apt update && apt install -y unzip git nano vim neofetch transmission pytho
 sudo apt update && apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape xdotool steam
 ~~~
 
--Xsel
+### Programme Descriptions
+
+- Xsel
 > XSel is a command-line program for getting and setting the contents of the X selection. Normally this is only accessible by manually highlighting information and pasting it with the middle mouse button.
 
 - W3m
