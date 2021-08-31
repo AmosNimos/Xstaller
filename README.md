@@ -104,6 +104,17 @@ LXAppearance
 
 ---
 
+# Native game
+
+~~~
+sudo apt update && sudo apt install -y minetest
+~~~
+
+## Description
+
+> Minetest is a free software game engine to create various games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like.
+---
+
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 
 [Pico-8](https://www.lexaloffle.com/pico-8.php)
@@ -129,7 +140,7 @@ The following do require more advance installation, but are higly recomended, th
 cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb
 ~~~
 
-## Manual install of sublime 3
+## Manual install of sublime 3sudo apt update && 
 
 [Sublime Last Version](https://www.sublimetext.com/download)
 
@@ -153,3 +164,6 @@ sudo nano /etc/hosts
 > Don't forget to __save__ your change to the hosts file (The default shortcut should be __ctrl-o__).
 
 ---
+
+(Programmer joke)
+> "__-y__ must be the most popular programme, everyone install it on linux!"
