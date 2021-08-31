@@ -110,9 +110,10 @@ LXAppearance
 sudo apt update && sudo apt install -y minetest
 ~~~
 
-## Description
+## Game Description
 
 > Minetest is a free software game engine to create various games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like.
+> 
 ---
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
