@@ -9,7 +9,7 @@ cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos
 
 > Remove package you don't want first.
 ~~~
-sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission python3-pip suckless-tools sox mpv cmus ffmpeg
+sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission python3-pip suckless-tools sox mpv cmus ffmpeg sc
 ~~~
 
 > If after the install, you want to know more about any of those package, simply use the __man__ command (man is for manual) followed by the package name.
