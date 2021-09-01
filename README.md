@@ -4,6 +4,7 @@
 ~~~
 cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos/bashrc/main/.bashrc"
 ~~~
+> What is a Bashrc? it's a configuration file for the bash terminal emulator that is usually located in your home directory. 
 
 # Funtional
 
