@@ -6,16 +6,17 @@ cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos
 ~~~
 > What is a Bashrc? it's a configuration file for the bash terminal emulator that is usually located in your home directory. 
 
-# Funtional
+# Apt Installation
+> If you don't want some of those package, simply remove their name from the __apt install__ command beffore you execute it.
 
-> Remove package you don't want first.
+## Funtional
+> These are programme that i consider as essential components for __my__ basic Linux usage.
 ~~~
 sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission python3-pip suckless-tools sox mpv cmus ffmpeg sc
 ~~~
-
 > If after the install, you want to know more about any of those package, simply use the __man__ command (man is for manual) followed by the package name.
 
-## Programme Descriptions
+### Programme Descriptions
 
 - Git
 > (Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed. data integrity, and support for distributed, non-linear workflows.)
@@ -43,14 +44,13 @@ sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission 
 
 ---
 
-# Optional
-
-> Remove package you don't want first.
+## Optional
+> These are programme that __I__ often use, most are Standalone and should not be required for __most__ basic linux usage.
 ~~~
 sudo apt update && sudo apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape xdotool steam
 ~~~
 
-## Programme Descriptions
+### Programme Descriptions
 
 - Xsel
 > XSel is a command-line program for getting and setting the contents of the X selection. Normally this is only accessible by manually highlighting information and pasting it with the middle mouse button.
@@ -105,7 +105,7 @@ LXAppearance
 
 ---
 
-# Native game
+## Native game
 
 ~~~
 sudo apt update && sudo apt install -y minetest
