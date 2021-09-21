@@ -52,7 +52,7 @@ sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission 
 ## Optional
 > These are programme that __I__ often use, most are Standalone and should not be required for __most__ basic linux usage.
 ~~~
-sudo apt update && sudo apt install -y xsel w3m gedit lxappearance awesome rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape xdotool steam
+sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape xdotool steam
 ~~~
 
 ### Programme Descriptions
@@ -66,7 +66,7 @@ sudo apt update && sudo apt install -y xsel w3m gedit lxappearance awesome rofi 
 - Gedit
 > gedit is the default text editor of the GNOME desktop environment and part of the GNOME Core Applications. Designed as a general-purpose text editor, gedit emphasizes simplicity and ease of use, with a clean and simple GUI, according to the philosophy of the GNOME project.
 
-LXAppearance
+- LXAppearance
 > LXAppearance is the standard theme switcher of LXDE. Users are able to change the theme, icons, and fonts used by applications easily. Starting at version 0.6. 1 it also allows to enable the accessibility features.
 
 - Awesome
@@ -110,16 +110,30 @@ LXAppearance
 
 ---
 
-## Native game
+
+## Native games
 
 ~~~
-sudo apt update && sudo apt install -y minetest
+sudo apt update && sudo apt install -y minetest hedgewars 
 ~~~
 
-## Game Description
+### Game Description
 
+- Minetest
 > Minetest is a free software game engine to create various games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like.
-> 
+
+---
+
+## Awesome install & config
+
+> What is [Awesome](https://awesomewm.org/)?
+
+~~~
+sudo apt install awesome
+mkdir -p ~/.config/awesome/
+git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
+~~~
+
 ---
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
