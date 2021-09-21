@@ -114,7 +114,7 @@ sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-stud
 ## Native games
 
 ~~~
-sudo apt update && sudo apt install -y minetest hedgewars 
+sudo apt update && sudo apt install -y minetest hedgewars supertux pingus
 ~~~
 
 ### Game Description
