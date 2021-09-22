@@ -122,6 +122,14 @@ sudo apt update && sudo apt install -y minetest hedgewars supertux pingus
 - Minetest
 > Minetest is a free software game engine to create various games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like.
 
+- Hedgewars
+> Hedgewars is a free artillery video game. Hedgewars is similar to Wormux, another free clone of Worms2,3. Hedgewars is multilingual, cross-platform and runs on GNU / Linux,
+
+- SuperTux
+> SuperTux is a free and open-source two-dimensional platform video game published under the GNU General Public License (GPL). The game was inspired by Nintendo's Super Mario Bros. series; instead of Mario, the hero in the game is Tux, the official mascot of the Linux kernel.
+
+- Pingus
+> Pingus is an open-source video game programmed by German developer Ingo Ruhnke. It is a clone of Lemmings with penguins instead of lemmings.
 ---
 
 ## Awesome install & config
@@ -139,8 +147,9 @@ git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome/template
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
 
-[Pico-8](https://www.lexaloffle.com/pico-8.php)
 
+[Pico-8](https://www.lexaloffle.com/pico-8.php)
+> (💰 Non-Free)
 > PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. It feels like a regular console, but runs on Windows , Mac , __Linux__.
 
 [Lutris](https://lutris.net/downloads/)
