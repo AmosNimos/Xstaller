@@ -1,7 +1,7 @@
 <!--  Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository. -->
 
-> Advice for new user: To use the following commands, open the "bash terminal emulator" (The __Terminal__ application.), then paster the command you wish to use, 
-> once your ready to excecute it, press enter to lunch your command, then lastly wait for it to complete it's execution, once done you can close the terminal.
+> Advice for new user: To use the following commands, open the "bash terminal emulator" (The __Terminal__ application.), then paste the command you wish to use, 
+> once your ready to excecute it, press enter to lunch your command, then wait for it to complete it's execution, once done you can close the terminal.
 
 > For more information on a command simply use the __man__ command followed by the name of the command in question, it will display a __manual__ of said command if it recognise it.
 
