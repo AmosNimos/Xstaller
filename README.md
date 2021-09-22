@@ -131,7 +131,8 @@ sudo apt update && sudo apt install -y minetest hedgewars supertux pingus
 ~~~
 sudo apt install awesome
 mkdir -p ~/.config/awesome/
-git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome
+cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome/template
 ~~~
 
 ---
