@@ -54,7 +54,7 @@ sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission 
 ## Optional
 > These are programme that __I__ often use, most are Standalone and should not be required for __most__ basic linux usage.
 ~~~
-sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape xdotool steam
+sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape jp2a xdotool steam
 ~~~
 
 ### Programme Descriptions
