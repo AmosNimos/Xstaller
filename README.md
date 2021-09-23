@@ -1,3 +1,5 @@
+![Template_image](Template/Perfection.png)
+
 <!--  Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository. -->
 
 > Advice for new user: To use the following commands, open the "bash terminal emulator" (The __Terminal__ application.), then paste the command you wish to use, 
