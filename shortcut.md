@@ -2,17 +2,17 @@
 
 ## First row
 
-- super-q = "close client"
+- super-q = "Quit active client"
 - super-w = "Web browser"
-- super-e = "execute programme with rofi"
-- super-r = "read selection"
-- super-t = "terminal"
-- super-y = "emoji"
+- super-e = "Execute programme with rofi"
+- super-r = "Read selection"
+- super-t = "Terminal"
+- super-y = "Emoji"
 
 ## Second row
 
-- super-s = "support (help)"
+- super-s = "Support (help)"
 - shift-super-s = "Shutdown prompt"
-- super-f = "Folder manager at home directory"
+- super-f = "Folder manager"
 
 
