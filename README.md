@@ -138,9 +138,14 @@ sudo apt update && sudo apt install -y minetest hedgewars supertux pingus
 
 ~~~
 sudo apt install awesome
+echo "Create config folder."
 mkdir -p ~/.config/awesome/
+echo "Copy default rc.lua to the config folder."
 cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+echo "Installing rc.lua template."
 git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome/template
+echo "Installing a renderer that allow terminal trensparancy to work."
+sudo apt install compton
 ~~~
 
 ---
