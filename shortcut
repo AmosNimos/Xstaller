@@ -1,4 +1,11 @@
+# Planning
+super-q = "close client"
+super-w = "Web browser"
+super-e = "execute programme with rofi"
+super-r = "read selection"
+super-t = "terminal"
+super-f = "Folder manager at home directory"
+super-y = "emoji"
 super-s = "support (help)"
-shift-super-w = "Default web browser"
-shift-super-f = "Default folder manager at home directory"
-shift-super-
+
+shift-super-s = "Shutdown prompt"
