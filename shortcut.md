@@ -4,7 +4,7 @@
 
 - super-q = "Quit active client"
 - super-w = "Web browser"
-- super-e = "Execute programme with rofi"
+- super-e = "Execute programme"
 - super-r = "Read selection"
 - super-t = "Terminal"
 - super-y = "Emoji"
