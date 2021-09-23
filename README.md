@@ -134,6 +134,13 @@ sudo apt update && sudo apt install -y minetest hedgewars supertux pingus
 > Pingus is an open-source video game programmed by German developer Ingo Ruhnke. It is a clone of Lemmings with penguins instead of lemmings.
 ---
 
+
+## Terminal look
+
+~~~
+sudo apt update && sudo apt install -y cmatrix cava tty-clock
+~~~
+
 ## Awesome install & config
 
 > What is [Awesome](https://awesomewm.org/)?
