@@ -1,4 +1,4 @@
-![Template_image](Template/Perfection.png)
+![Template_image](Template2.png)
 
 <!--  Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository. -->
 
