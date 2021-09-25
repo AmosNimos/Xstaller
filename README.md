@@ -122,7 +122,7 @@ sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds
 ## Native games 3D
 
 ~~~
-sudo apt update && sudo apt install -y minetest
+sudo apt update && sudo apt install -y minetest assaultcube
 ~~~
 
 ### Game Description
