@@ -119,7 +119,7 @@ sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds
 ## Native games 3D
 
 ~~~
-sudo apt update && sudo apt install -y minetest assaultcube redeclipse
+sudo apt update && sudo apt install -y minetest assaultcube redeclipse sauerbraten
 ~~~
 
 ### Game Description
@@ -149,6 +149,9 @@ Taking place in realistic environments, with fast, arcade gameplay, it's addicti
 
 - RedEclipse
 > Red Eclipse is an open-source arena shooter, built using the technology found in Tesseract and Cube Engine 2. Offering an innovative parkour system, distinct but all potent weapons, and fast paced accessible gameplay.
+
+- Sauerbraten
+> Cube 2: Sauerbraten is a free multiplayer & singleplayer first person shooter, the successor of the Cube FPS. 
 ---
 
 ## Game engin
