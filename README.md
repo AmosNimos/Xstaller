@@ -119,7 +119,7 @@ sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds
 ## Native games 3D
 
 ~~~
-sudo apt update && sudo apt install -y minetest assaultcube redeclipse sauerbraten
+sudo apt update && sudo apt install -y minetest supertuxkart assaultcube redeclipse sauerbraten
 ~~~
 
 ### Game Description
@@ -143,6 +143,9 @@ sudo apt update && sudo apt install -y minetest assaultcube redeclipse sauerbrat
 - Minetest
 > Minetest is a free software game engine to create various games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like.
 
+- SuperTuxKart
+> Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play. Our aim is to create a game that is more fun than realistic, and provide an enjoyable experience for all ages. 
+
 - AssaultCube
 > AssaultCube is a FREE, multiplayer, first-person shooter game, based on the CUBE engine.
 Taking place in realistic environments, with fast, arcade gameplay, it's addictive and fun!
@@ -153,13 +156,6 @@ Taking place in realistic environments, with fast, arcade gameplay, it's addicti
 - Sauerbraten
 > Cube 2: Sauerbraten is a free multiplayer & singleplayer first person shooter, the successor of the Cube FPS. 
 ---
-
-## Game engin
-
-- Cube2
-~~~
-sudo apt update && sudo apt install -y cube2-server cube2-data cube2
-~~~
 
 ## Terminal look
 
