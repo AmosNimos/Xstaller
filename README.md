@@ -113,10 +113,16 @@ sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-stud
 ---
 
 
-## Native games
+## Native games 2D
 
 ~~~
-sudo apt update && sudo apt install -y minetest hedgewars supertux pingus
+sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds
+~~~
+
+## Native games 3D
+
+~~~
+sudo apt update && sudo apt install -y minetest
 ~~~
 
 ### Game Description
@@ -132,6 +138,9 @@ sudo apt update && sudo apt install -y minetest hedgewars supertux pingus
 
 - Pingus
 > Pingus is an open-source video game programmed by German developer Ingo Ruhnke. It is a clone of Lemmings with penguins instead of lemmings.
+
+- Teeworlds
+> Teeworlds is a free online multiplayer game, available for all major operating systems. Battle with up to 16 players in a variety of game modes, including Team Deathmatch and Capture The Flag. You can even design your own maps!
 ---
 
 
