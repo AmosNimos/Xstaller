@@ -122,13 +122,12 @@ sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds
 ## Native games 3D
 
 ~~~
-sudo apt update && sudo apt install -y minetest assaultcube
+sudo apt update && sudo apt install -y minetest assaultcube redeclipse
 ~~~
 
 ### Game Description
 
-- Minetest
-> Minetest is a free software game engine to create various games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like.
+#### 2D
 
 - Hedgewars
 > Hedgewars is a free artillery video game. Hedgewars is similar to Wormux, another free clone of Worms2,3. Hedgewars is multilingual, cross-platform and runs on GNU / Linux,
@@ -141,6 +140,18 @@ sudo apt update && sudo apt install -y minetest assaultcube
 
 - Teeworlds
 > Teeworlds is a free online multiplayer game, available for all major operating systems. Battle with up to 16 players in a variety of game modes, including Team Deathmatch and Capture The Flag. You can even design your own maps!
+
+#### 3D
+
+- Minetest
+> Minetest is a free software game engine to create various games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like.
+
+- AssaultCube
+> AssaultCube is a FREE, multiplayer, first-person shooter game, based on the CUBE engine.
+Taking place in realistic environments, with fast, arcade gameplay, it's addictive and fun!
+
+- RedEclipse
+> Red Eclipse is an open-source arena shooter, built using the technology found in Tesseract and Cube Engine 2. Offering an innovative parkour system, distinct but all potent weapons, and fast paced accessible gameplay.
 ---
 
 
