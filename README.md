@@ -54,7 +54,7 @@ sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission 
 ## Optional
 > These are programme that __I__ often use, most are Standalone and should not be required for __most__ basic linux usage.
 ~~~
-sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape jp2a xdotool steam
+sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape jp2a xdotool
 ~~~
 
 ### Programme Descriptions
@@ -106,9 +106,6 @@ sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-stud
 
 - Xdotool
 > Xdotool lets you programatically (or manually) simulate keyboard input and mouse activity, move and resize windows, etc. It does this using X11's XTEST extension and other Xlib functions. 
-
-- Steam
-> Steam is a video game digital distribution service by Valve. It was launched as a standalone software client in September 2003 as a way for Valve to provide automatic updates for their games, and expanded to include games from third-party publishers. 
 
 ---
 
