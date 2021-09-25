@@ -151,6 +151,12 @@ Taking place in realistic environments, with fast, arcade gameplay, it's addicti
 > Red Eclipse is an open-source arena shooter, built using the technology found in Tesseract and Cube Engine 2. Offering an innovative parkour system, distinct but all potent weapons, and fast paced accessible gameplay.
 ---
 
+## Game engin
+
+- Cube2
+~~~
+sudo apt update && sudo apt install -y cube2-server cube2-data cube2
+~~~
 
 ## Terminal look
 
