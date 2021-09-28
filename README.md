@@ -7,6 +7,15 @@
 
 > For more information on a command simply use the __man__ command followed by the name of the command in question, it will display a __manual__ of said command if it recognise it.
 
+# Avoid automatic execution
+> When copying code from the web, if their is a line break __\n__ which can even be hidden in the code, it will execute automatillaly when pasted in the terminal, this can be a security issues so to avoid this i suggest using [this](https://bbs.archlinux.org/viewtopic.php?id=95548) shortcut to copy code instead it will remove line break from the selection.
+
+~~~
+echo "xsel | tr -d '\n' | xsel -i; xdotool click --clearmodifiers 2" >> .xbindkeysrc
+echo "\n Control + Insert" >> .xbindkeysrc
+~~~
+
+
 # Install my bashrc
 ~~~
 cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos/bashrc/main/.bashrc"
