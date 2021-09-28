@@ -237,8 +237,14 @@ sudo nano /etc/hosts
 
 ~~~
 echo "xsel | tr -d '\n' | xsel -i; xdotool click --clearmodifiers 2" >> .xbindkeysrc
+~~~
+~~~
 echo "\n Control + Insert" >> .xbindkeysrc
+~~~
+~~~
 echo "xdotool type --clearmodifiers "$(xsel | tr -d '\n')"" >> .xbindkeysrc
+~~~
+~~~
 echo "Control + Insert" >> .xbindkeysrc
 ~~~
 
