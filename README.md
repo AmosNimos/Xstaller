@@ -112,9 +112,11 @@ sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-stud
 ### Gaming setup
 > you might also need the contrib and non-free components to install the following games, here is how to add those components the your package source.
 
+> Note: If you already have the __main__ repository installed you can use the folowing commands to install the other repository, the two first command, make sure they wont be installed twice by removing them first, and the last one include them after the __main__ repository.
+
 ~~~
-sudo sed 's/main/non-free/g' /etc/apt/sources.list
-sudo sed 's/main/contrib/g' /etc/apt/sources.list
+sudo sed 's/non-free//g' /etc/apt/sources.list
+sudo sed 's/contrib//g' /etc/apt/sources.list
 sudo sed -i 's/main/main contrib non-free/g' /etc/apt/sources.list
 ~~~
 
