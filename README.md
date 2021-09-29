@@ -7,6 +7,9 @@
 
 > For more information on a command simply use the __man__ command followed by the name of the command in question, it will display a __manual__ of said command if it recognise it.
 
+
+This repository is supose to have all the information needed to configure a new coputer to my personal all from the terminal.
+
 # Install my bashrc
 ~~~
 cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos/bashrc/main/.bashrc"
