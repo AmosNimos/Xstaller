@@ -189,6 +189,7 @@ echo "Copy default rc.lua to the config folder."
 cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
 echo "Installing rc.lua template."
 git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome/template
+echo "make the prompt script executable (require password)"
 echo "Installing a renderer that allow terminal trensparancy to work."
 sudo apt install compton
 ~~~
@@ -199,6 +200,7 @@ sudo apt install compton
 sudo apt install awesome
 sudo apt install compton
 git clone https://github.com/AmosNimos/awesome.git ~/.config/
+chmod +x ~/.config/awesome/prompt.sh
 ~~~
 
 ## rofi theme
