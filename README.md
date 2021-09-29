@@ -109,6 +109,8 @@ sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-stud
 
 ---
 
+# Native games
+
 ### Gaming setup
 > you might also need the contrib and non-free components to install the following games, here is how to add those components the your package source.
 
@@ -121,8 +123,6 @@ sudo sed -i 's/main/main contrib non-free/g' /etc/apt/sources.list
 ~~~
 
 If you have an __Nvidea__ graphic card (btw, nvidea fuck you!) you might need to install the required proprietary driver. [How to install nvidea driver?](Nvidea-Driver-Installation.md)
-
-# Native games
 
 ## Native games 2D
 
