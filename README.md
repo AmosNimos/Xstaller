@@ -193,7 +193,7 @@ echo "Installing a renderer that allow terminal trensparancy to work."
 sudo apt install compton
 ~~~
 
-### Direct awesome cofig
+#### Direct awesome config
 > Might not be compatible with your system configuration
 ~~~
 sudo apt install awesome
