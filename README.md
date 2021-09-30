@@ -8,7 +8,7 @@
 > For more information on a command simply use the __man__ command followed by the name of the command in question, it will display a __manual__ of said command if it recognise it.
 
 
-This repository is supose to have all the information needed to configure a new coputer to my personal all from the terminal.
+This repository is supose to have all the information needed to configure a new coputer to my personal preference.
 
 # Install my bashrc
 ~~~
@@ -184,21 +184,8 @@ sudo apt update && sudo apt install -y cmatrix cava tty-clock
 
 > What is [Awesome](https://awesomewm.org/)?
 
-~~~
-sudo apt install awesome
-echo "Create config folder."
-mkdir -p ~/.config/awesome/
-echo "Copy default rc.lua to the config folder."
-cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
-echo "Installing rc.lua template."
-git clone https://github.com/AmosNimos/awesome.git ~/.config/awesome/template
-echo "make the prompt script executable (require password)"
-echo "Installing a renderer that allow terminal trensparancy to work."
-sudo apt install compton
-~~~
-
 #### Direct awesome config
-> Might not be compatible with your system configuration
+> Might not be compatible with your system distribution.
 ~~~
 sudo apt install awesome
 sudo apt install compton
