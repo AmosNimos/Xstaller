@@ -191,7 +191,6 @@ sudo apt install awesome
 sudo apt install compton
 git clone https://github.com/AmosNimos/awesome.git ~/.config/
 chmod +x ~/.config/awesome/prompt.sh
-echo "export PATH=.:$PATH" >> ~/.profile
 ~~~
 
 ## rofi theme
