@@ -52,6 +52,9 @@ sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission 
 - Neofetch
 > (Neofetch is mainly developed to be used in screenshots of your system. It currently supports 150+ operating systems including Linux, BSD, Mac OS X, iOS, and Windows.)
 
+- Ranger
+> ranger is a console file manager with VI key bindings. It provides a minimalistic and nice curses interface with a view on the directory hierarchy. It ships with rifle, a file launcher that is good at automatically finding out which program to use for what file type.
+
 ---
 
 ## Optional
