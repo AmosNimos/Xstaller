@@ -22,7 +22,7 @@ cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos
 ## Funtional
 > These are programme that i consider as essential components for __my__ basic Linux usage.
 ~~~
-sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission python3-pip suckless-tools sox mpv cmus ffmpeg sc ranger
+sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission python3-pip suckless-tools sox mpv cmus ffmpeg sc ranger bash-completion
 ~~~
 > If after the install, you want to know more about any of those package, simply use the __man__ command (man is for manual) followed by the package name.
 
@@ -55,12 +55,15 @@ sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission 
 - Ranger
 > ranger is a console file manager with VI key bindings. It provides a minimalistic and nice curses interface with a view on the directory hierarchy. It ships with rifle, a file launcher that is good at automatically finding out which program to use for what file type.
 
+- Bash-completion
+> Bash-completion is a collection of command line command completions for the Bash shell, collection of helper functions to assist in creating new completions, and set of facilities for loading completions automatically on demand, as well as installing them.
+
 ---
 
 ## Optional
 > These are programme that __I__ often use, most are Standalone and should not be required for __most__ basic linux usage.
 ~~~
-sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape jp2a xdotool
+sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak wkhtmltopdf gimp inkscape  jp2a xdotool
 ~~~
 
 ### Programme Descriptions
