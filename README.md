@@ -22,7 +22,7 @@ cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos
 ## Funtional
 > These are programme that i consider as essential components for __my__ basic Linux usage.
 ~~~
-sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission python3-pip suckless-tools sox mpv cmus ffmpeg sc ranger bash-completion
+sudo apt update && sudo apt install -y unzip git nano vim transmission python3-pip suckless-tools sox ffmpeg neofetch mpv cmus sc ranger bash-completion
 ~~~
 > If after the install, you want to know more about any of those package, simply use the __man__ command (man is for manual) followed by the package name.
 
@@ -51,6 +51,12 @@ sudo apt update && sudo apt install -y unzip git nano vim neofetch transmission 
 
 - Neofetch
 > (Neofetch is mainly developed to be used in screenshots of your system. It currently supports 150+ operating systems including Linux, BSD, Mac OS X, iOS, and Windows.)
+
+- Cmus
+> cmus is a small, fast and powerful console music player for Unix-like operating systems.
+
+- Sc 
+sc is a discontinued, cross-platform, libre, TUI, spreadsheet and calculator application that runs on Unix and Unix-like operating systems.
 
 - Ranger
 > ranger is a console file manager with VI key bindings. It provides a minimalistic and nice curses interface with a view on the directory hierarchy. It ships with rifle, a file launcher that is good at automatically finding out which program to use for what file type.
@@ -225,13 +231,14 @@ The following do require more advance installation, but are higly recomended, th
 # Sublime 3
 
 [Sublime 3](https://www.sublimetext.com/3)
+> (💰 Non-Free)
 
 ### Single line install of sublime 3
 ~~~
 cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb && sudo dpkg -i sublime-text_build-3211_amd64.deb && rm sublime-text_build-3211_amd64.deb
 ~~~
 
-## Manual install of sublime 3sudo apt update && 
+## Manual install of sublime 3
 
 [Sublime Last Version](https://www.sublimetext.com/download)
 
@@ -240,20 +247,8 @@ cd /tmp && wget https://download.sublimetext.com/sublime-text_build-3211_amd64.d
 ### To stop the update warning of sublime 3
 
 ~~~
-echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
+sudo echo "127.0.0.1 www.sublimetext.com" >> /etc/hosts
 ~~~
-
-> If you get a __Permission denied__ use instead: 
-
-~~~
-sudo nano /etc/hosts
-~~~
-> Then paste:
-~~~
-"127.0.0.1 www.sublimetext.com"
-~~~
-> Don't forget to __save__ your change to the hosts file (The default shortcut should be __ctrl-o__).
-
 ---
 
 #### Avoid automatic execution
