@@ -37,7 +37,7 @@ sudo apt update && sudo apt install -y unzip git nano vim transmission blueman p
 - Transmission 
 > (Transmission is a BitTorrent client which features a variety of user interfaces on top of a cross-platform back-end. Transmission is free software licensed under the terms of the GNU General Public License, with parts under the MIT License.)
 
--Blueman
+- Blueman
 > Blueman est un gestionnaire de connexion bluetooth en GTK+ pour GNOME, écrit en Python. Il est installé par défaut sur Xubuntu, Lubuntu et Ubuntu Mate. (you can lunch it from the terminal with the command: blueman-manager)
 
 - Pip
