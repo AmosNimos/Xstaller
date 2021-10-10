@@ -22,7 +22,7 @@ cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos
 ## Funtional
 > These are programme that i consider as essential components for __my__ basic Linux usage.
 ~~~
-sudo apt update && sudo apt install -y unzip git nano vim transmission blueman python3-pip suckless-tools sox ffmpeg neofetch mpv cmus sc ranger bash-completion
+sudo apt update && sudo apt install -y unzip git nano vim transmission blueman python3-pip suckless-tools sox ffmpeg neofetch mpv cmus bc sc ranger bash-completion
 ~~~
 > If after the install, you want to know more about any of those package, simply use the __man__ command (man is for manual) followed by the package name.
 
@@ -58,8 +58,11 @@ sudo apt update && sudo apt install -y unzip git nano vim transmission blueman p
 - Cmus
 > cmus is a small, fast and powerful console music player for Unix-like operating systems.
 
+- Bc
+> bc command is used for command line calculator. It is similar to basic calculator by using which we can do basic mathematical calculations. 
+
 - Sc 
-sc is a discontinued, cross-platform, libre, TUI, spreadsheet and calculator application that runs on Unix and Unix-like operating systems.
+> sc is a discontinued, cross-platform, libre, TUI, spreadsheet and calculator application that runs on Unix and Unix-like operating systems.
 
 - Ranger
 > ranger is a console file manager with VI key bindings. It provides a minimalistic and nice curses interface with a view on the directory hierarchy. It ships with rifle, a file launcher that is good at automatically finding out which program to use for what file type.
