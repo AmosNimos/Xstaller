@@ -148,6 +148,11 @@ Support for 32-bit architecture
 sudo dpkg --add-architecture i386
 ~~~
 
+# Steam installation
+~~~
+sudo apt update && sudo apt install steam && sudo apt-get upgrade steam -f
+~~~
+
 If you have an __Nvidea__ graphic card (btw, nvidea fuck you!) you might need to install the required proprietary driver. [How to install nvidea driver?](Nvidea-Driver-Installation.md)
 
 ## Native games 2D
