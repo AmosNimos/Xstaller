@@ -143,6 +143,11 @@ sudo sed 's/contrib//g' /etc/apt/sources.list
 sudo sed -i 's/main/main contrib non-free/g' /etc/apt/sources.list
 ~~~
 
+Support for 32-bit architecture
+~~~
+sudo dpkg --add-architecture i386
+~~~
+
 If you have an __Nvidea__ graphic card (btw, nvidea fuck you!) you might need to install the required proprietary driver. [How to install nvidea driver?](Nvidea-Driver-Installation.md)
 
 ## Native games 2D
