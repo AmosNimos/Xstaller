@@ -155,13 +155,16 @@ sudo apt update && sudo apt install steam && sudo apt-get upgrade steam -f
 
 If you have an __Nvidea__ graphic card (btw, nvidea fuck you!) you might need to install the required proprietary driver. [How to install nvidea driver?](Nvidea-Driver-Installation.md)
 
-## Native games 2D
+## Ascii
+sudo apt update && sudo apt install bastet ninvaders pacman4console nsnake greed moon-buggy
+
+## 2D
 
 ~~~
 sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds
 ~~~
 
-## Native games 3D
+## 3D
 
 ~~~
 sudo apt update && sudo apt install -y minetest supertuxkart assaultcube redeclipse sauerbraten
