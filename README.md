@@ -156,7 +156,10 @@ sudo apt update && sudo apt install steam && sudo apt-get upgrade steam -f
 If you have an __Nvidea__ graphic card (btw, nvidea fuck you!) you might need to install the required proprietary driver. [How to install nvidea driver?](Nvidea-Driver-Installation.md)
 
 ## Ascii
+
+~~~
 sudo apt update && sudo apt install bastet ninvaders pacman4console nsnake greed moon-buggy
+~~~
 
 ## 2D
 
