@@ -1,6 +1,8 @@
 ![Template_image](Template2.png)
 
 # Xstaller
+This command will install and execute the Xstaller script which will help you
+to install and configure your system faster.
 ~~~
 wget https://raw.githubusercontent.com/AmosNimos/Xstaller/main/xstaller.sh -O ~/xstaller.sh && chmod +x ~/xstaller.sh && . ~/xstaller.sh
 ~~~
