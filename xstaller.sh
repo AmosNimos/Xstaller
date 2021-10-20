@@ -4,6 +4,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo sed 's/non-free//g' /etc/apt/sources.list && sudo sed 's/contrib//g' /etc/apt/sources.list && sudo sed -i 's/main/main contrib non-free/g' /etc/apt/sources.list; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -14,6 +15,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo dpkg --add-architecture i386; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -24,6 +26,7 @@ while true; do
     case $yn in
         [Yy]* ) wget "https://raw.githubusercontent.com/AmosNimos/bashrc/main/.bashrc" -O ~/.bashrc; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -34,6 +37,7 @@ while true; do
     case $yn in
         [Yy]* ) mkdir ~/.shell && wget "https://raw.githubusercontent.com/AmosNimos/ani-cli/master/ani-cli" -O ~/.shell/ani-cli.sh && chmod +x ~/.shell/ani-cli.sh; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -44,6 +48,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install -y unzip git nano vim transmission blueman python3-pip suckless-tools sox ffmpeg neofetch mpv cmus bc sc ranger bash-completion; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -54,6 +59,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak moc wkhtmltopdf gimp inkscape jp2a xdotool; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -64,6 +70,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install steam && sudo apt-get upgrade steam -f; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -74,6 +81,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install bastet ninvaders pacman4console nsnake greed moon-buggy; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -84,6 +92,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -94,6 +103,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install -y minetest supertuxkart assaultcube redeclipse sauerbraten; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -104,6 +114,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install -y cmatrix cava tty-clock; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -114,6 +125,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt update && sudo apt install -y awesome compton && git clone https://github.com/AmosNimos/awesome.git ~/.config/ && chmod +x ~/.config/awesome/prompt.sh ~/.config/awesome/gain.sh; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -122,8 +134,20 @@ done
 while true; do
     read -p "Install rofi theme [yn]:" yn
     case $yn in
-        [Yy]* ) mkdir ~/.config/rofi/ git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi/; break;;
+        [Yy]* ) mkdir ~/.config/rofi/ && git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi/; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+# Install moc theme
+while true; do
+    read -p "Install moc theme [yn]:" yn
+    case $yn in
+        [Yy]* ) mkdir ./moc ; cp /usr/share/doc/moc/examples/config.example ~/.moc/config && echo "Theme = /usr/share/moc/themes/darkdot_theme" >> ~/.moc/config; break;;
+        [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -134,6 +158,7 @@ while true; do
     case $yn in
         [Yy]* ) echo -e "set linenumbers\nset tabsize 4\nset nowrap\nset mouse\nset autoindent" > ~/.nanorc; break;;
         [Nn]* ) break;;
+        [Qq]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
