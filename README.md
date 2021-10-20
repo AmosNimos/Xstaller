@@ -16,6 +16,14 @@ cd && rm ~/.bashrc && cd ~/ && wget "https://raw.githubusercontent.com/AmosNimos
 ~~~
 > What is a Bashrc? it's a configuration file for the bash terminal emulator that is usually located in your home directory. 
 
+# Install my shell script
+> (Some of theme are use by my __.bashrc__ file. or the awesome __rc.lua__ file.)
+
+~~~
+wget "https://raw.githubusercontent.com/AmosNimos/ani-cli/master/ani-cli" -O ~/.shell/ani-cli.sh
+
+~~~
+
 # Apt Installation
 > If you don't want some of those package, simply remove their name from the __apt install__ command beffore you execute it.
 
