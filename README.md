@@ -1,5 +1,11 @@
 ![Template_image](Template2.png)
 
+# Xstaller
+~~~
+wget https://raw.githubusercontent.com/AmosNimos/Xstaller/main/xstaller.sh -O ~/xstaller.sh && chmod +x ~/xstaller.sh && . ~/xstaller.sh
+~~~
+
+
 <!--  Unrar might also be of use, but seem to be non-free, so on debian it won't be on the default apt repository. -->
 
 > Advice for new user: To use the following commands, open the "bash terminal emulator" (The __Terminal__ application.), then paste the command you wish to use, 
