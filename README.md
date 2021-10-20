@@ -239,7 +239,9 @@ mkdir ~/.config/rofi/
 git clone https://github.com/AmosNimos/rofi-theme.git ~/.config/rofi/
 
 # text editor
+~~~
 echo -e "set linenumbers\nset tabsize 4\nset nowrap\nset mouse\nset autoindent" > ~/.nanorc
+~~~
 ---
 
 The following do require more advance installation, but are higly recomended, they might also be available in your distribution de package manager.
