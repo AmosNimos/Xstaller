@@ -12,11 +12,10 @@ echo "  XXXX    XXXXstaller"
 echo -ne "\e[0m\n"
 
 function auto_install(){
+
 	sudo apt update
 	
 	# Add
-	echo -ne "\e[0;31;43m [Add contrib and non-free to apt source.] \e[0m\n"
-	sudo sed 's/non-free//g' /etc/apt/sources.list && sudo sed 's/contrib//g' /etc/apt/sources.list && sudo sed -i 's/main/main contrib non-free/g' /etc/apt/sources.list
 	echo -ne "\e[0;31;43m [Add support for 32-bit architecture.] \e[0m\n"
 	sudo dpkg --add-architecture i386
 	
@@ -30,7 +29,7 @@ function auto_install(){
 	echo -ne "\e[0;31;43m [Install optional program.] \e[0m\n"
 	sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak moc wkhtmltopdf gimp inkscape jp2a xdotool cmatrix cava tty-clock
 	echo -ne "\e[0;31;43m [Install steam.] \e[0m\n"
-	sudo apt update && sudo apt install steam && sudo apt-get upgrade steam -f
+	sudo apt update && sudo apt install -y steam && sudo apt-get upgrade steam -f
 	echo -ne "\e[0;31;43m [Install games.] \e[0m\n"
 	sudo apt update && sudo apt install bastet ninvaders pacman4console nsnake greed moon-buggy
 	sudo apt update && sudo apt install -y hedgewars supertux pingus teeworlds
