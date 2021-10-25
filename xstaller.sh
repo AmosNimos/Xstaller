@@ -1,4 +1,4 @@
-# Install add aditional apt sources
+# Banner
 echo -ne "\e[0;31m\n"
 echo "  XXXX    XXXX" 
 echo "  XXXX    XXXX"
@@ -11,6 +11,9 @@ echo "  XXXX    XXXX"
 echo "  XXXX    XXXXstaller" 
 echo -ne "\e[0m\n"
 
+# If argument = -i print the manual/readme for xstaller. (keep it up to date.)
+
+# Complete installation process
 function auto_install(){
 
 	sudo apt update
@@ -182,7 +185,7 @@ while true; do
     esac
 done
 
-# Install rofi theme
+# Configure rofi theme
 while true; do
     read -p "Install rofi theme? [y/n/q]:" yn
     case $yn in
@@ -193,7 +196,7 @@ while true; do
     esac
 done
 
-# Install moc theme
+# Configure moc theme
 while true; do
     read -p "Install moc theme? [y/n/q]:" yn
     case $yn in
