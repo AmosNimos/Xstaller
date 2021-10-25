@@ -30,7 +30,7 @@ function auto_install(){
 	echo -ne "\e[0;31;43m [Install functional program.] \e[0m\n"
 	sudo apt update && sudo apt install -y unzip git nano vim transmission blueman python3-pip suckless-tools sox ffmpeg neofetch mpv cmus bc sc ranger bash-completion
 	echo -ne "\e[0;31;43m [Install optional program.] \e[0m\n"
-	sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak moc wkhtmltopdf gimp inkscape jp2a xdotool cmatrix cava tty-clock
+	sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak moc wkhtmltopdf gimp inkscape jp2a xdotool cmatrix calcurse tty-clock
 	echo -ne "\e[0;31;43m [Install steam.] \e[0m\n"
 	sudo apt update && sudo apt install -y steam && sudo apt-get upgrade steam -f
 	echo -ne "\e[0;31;43m [Install games.] \e[0m\n"
@@ -123,7 +123,7 @@ done
 while true; do
     read -p "Install optional program? [y/n/q]:" yn
     case $yn in
-        [Yy]* ) sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak moc wkhtmltopdf gimp inkscape jp2a xdotool cmatrix cava tty-clock; break;;
+        [Yy]* ) sudo apt update && sudo apt install -y xsel w3m gedit lxappearance rofi obs-studio pavucontrol youtube-dl calibre libreoffice espeak moc wkhtmltopdf gimp inkscape jp2a xdotool cmatrix calcurse tty-clock; break;;
         [Nn]* ) break;;
         [Qq]* ) exit;;
         * ) echo "Please answer yes, no or quit.";;
